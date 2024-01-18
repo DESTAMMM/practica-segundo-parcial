@@ -1,0 +1,54 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0%;
+}
+
+.container-bar {
+    width: 300px;
+    height: 100vh;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.text {
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo {
+    height: 50px;
+}
+
+.bar-charge {
+    height: 20px;
+    background-color: #ff30f5;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.bar-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.bar-charge:hover .bar-text {
+    opacity: 1;
+}
+.entrada{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap :30px;
+    margin-top: 20px;
+    text-align: center;
+}
+.num{
+    border-radius: 20px;
+}
